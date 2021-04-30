@@ -1,0 +1,55 @@
+<html>
+	<head>
+	
+		<link rel="stylesheet" href="Calculator.css">
+		<title>Calculator by shivanighadge</title>
+	</head>	
+
+	<body>
+	<div class="container">
+		<h1> Calculator</h1>
+	<div>
+			<form name="form1" class="calci" action="Calculator.html" method="POST">
+				<input type="text" name="answer" id="display">
+				<br>
+				<input type= "button" id="clear" value="C" onclick="form1.answer.value=' '">
+				<input type= "button" class="btndesign" value="00" onclick="form1.answer.value+='00'">
+				<input type= "button" class="operatordesign" value="/" onclick="form1.answer.value+='/'">
+				<br>
+				<input type= "button" class="btndesign" value="7" onclick="form1.answer.value+='7'">
+				<input type= "button" class="btndesign" value="8" onclick="form1.answer.value+='8'">
+				<input type= "button" class="btndesign" value="9" onclick="form1.answer.value+='9'">
+				<input type= "button" class="operatordesign" value="X" onclick="form1.answer.value+='*'">
+				<br>
+				<input type= "button" class="btndesign" value="4" onclick="form1.answer.value+='4'">
+				<input type= "button" class="btndesign" value="5" onclick="form1.answer.value+='5'">
+				<input type= "button" class="btndesign" value="6" onclick="form1.answer.value+='6'">
+				<input type= "button" class="operatordesign" value="-" onclick="form1.answer.value+='-'">
+				<br>
+				<input type= "button" class="btndesign" value="1" onclick="form1.answer.value+='1'">
+				<input type= "button" class="btndesign" value="2" onclick="form1.answer.value+='2'">
+				<input type= "button" class="btndesign" value="3" onclick="form1.answer.value+='3'">
+				<input type= "button" class="operatordesign" value="+" onclick="form1.answer.value+='+'">
+				<br>
+				<input type= "button" class="btndesign" value="0" onclick="form1.answer.value+='0'">
+				<input type= "button" class="btndesign" value="." onclick="form1.answer.value+='.'">
+				<input type= "button" id="equalto" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+			</form>
+		</div>
+		<footer>
+                  <p>
+                    Copyright &copy; 2021 SHIVANI GHADGE.
+                    Design:<a href="#" class="footer-link">shivanighadge</a>
+                  </p>
+             </footer>
+</div>
+			
+		
+	
+	
+	
+	
+	
+	</body>
+			
+</html>
